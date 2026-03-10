@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Projects | Keerthana Gandla</title>
+
+<style>
+body{
+margin:0;
+font-family: 'Segoe UI', sans-serif;
+background:#F8F6FF;
+color:#374151;
+}
+
+header{
+background:#C7D2FE;
+padding:20px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#374151;
+font-weight:600;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:60px 20px;
+}
+
+.project{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.project h2{
+margin-top:0;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+margin-top:25px;
+}
+
+.gallery img{
+width:100%;
+border-radius:8px;
+}
+
+.placeholder{
+height:200px;
+background:#F3F4F6;
+border-radius:8px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:#9CA3AF;
+font-size:14px;
+}
+
+.links{
+margin-top:25px;
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:12px 20px;
+background:#FBCFE8;
+border-radius:8px;
+text-decoration:none;
+color:#374151;
+font-weight:600;
+margin-right:10px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+margin-top:40px;
+background:#C7D2FE;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h2>PROJECTS</h2>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="projects.html">Projects</a>
+<a href="resume.html">Resume</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<div class="container">
+
+<div class="project">
+
+<h2>
+Saving Seconds, Saving Lives: Geospatial Analysis of Traffic Collision Hotspots and Hospital Accessibility in Los Angeles
+</h2>
+
+<p>
+
+This data science project analyzes large-scale Los Angeles traffic collision data to identify accident hotspots, evaluate hospital accessibility, and develop machine learning models that predict crash severity.
+
+</p>
+
+<h3>Project Overview</h3>
+
+<p>
+
+Using geospatial analytics and machine learning, the project integrates traffic collision records with hospital datasets to understand how location, behavior, and infrastructure influence crash severity.
+
+</p>
+
+<h3>Key Objectives</h3>
+
+<ul>
+
+<li>Identify traffic collision hotspots across Los Angeles</li>
+
+<li>Measure proximity of accidents to hospitals</li>
+
+<li>Analyze temporal and behavioral accident patterns</li>
+
+<li>Predict crash severity using machine learning models</li>
+
+</ul>
+
+<h3>Tools & Technologies</h3>
+
+<ul>
+
+<li>Python</li>
+<li>Pandas & NumPy</li>
+<li>LightGBM & CatBoost</li>
+<li>DBSCAN clustering</li>
+<li>Geospatial analytics</li>
+
+</ul>
+
+<h3>Project Visualizations</h3>
+
+<div class="gallery">
+
+<img src="C:\Users\keert\OneDrive\Pictures\Screenshots\Screenshot 2025-12-04 194127.png">
+
+<img src="C:\Users\keert\OneDrive\Pictures\Screenshots\Screenshot 2025-12-10 195928.png">
+
+<img src="C:\Users\keert\OneDrive\Pictures\Screenshots\Screenshot 2025-12-04 193127.png">
+
+<img src="C:\Users\keert\OneDrive\Pictures\Screenshots\Screenshot 2025-12-04 185705.png">
+
+</div>
+
+<h3>Interactive Project Links</h3>
+
+<div class="links">
+
+<a class="btn" href="C:\Users\keert\Downloads\final_Project2025\Group3__Final_Report.pdf">
+View Report
+</a>
+<a class="btn" href="C:\Users\keert\Downloads\Group3__KeerthanaGandla (1).pdf">
+View Presentation
+</a>
+
+</div>
+
+</body>
+</html>
+
+<br><br>
+
+<div class="project">
+
+<h2>
+Visual Analytics of Netflix Movies and TV Shows Using Tableau
+</h2>
+
+<p>
+
+This project explores Netflix’s global catalog using Tableau dashboards to analyze content distribution, genre patterns, maturity ratings, and production trends across countries.
+
+</p>
+
+<h3>Project Overview</h3>
+
+<p>
+
+Netflix hosts thousands of movies and TV shows produced across many countries and genres. Understanding how this content is distributed helps reveal trends in global media production and audience targeting.
+
+This project transforms raw Netflix metadata into interactive visual dashboards that highlight key insights such as genre popularity, rating distributions, country-level production, and growth trends over time.
+
+</p>
+
+<h3>Dataset</h3>
+
+<p>
+
+The dataset contains metadata for <b>8,807 Netflix titles</b> including both Movies and TV Shows.
+
+</p>
+
+<ul>
+
+<li>Type (Movie or TV Show)</li>
+
+<li>Title</li>
+
+<li>Director</li>
+
+<li>Country of production</li>
+
+<li>Maturity rating</li>
+
+<li>Release year</li>
+
+<li>Date added to Netflix</li>
+
+<li>Content duration</li>
+
+<li>Genre categories</li>
+
+</ul>
+
+<p>
+
+The dataset spans content from more than 100 countries and several decades of releases, making it suitable for analyzing global streaming trends and Netflix’s evolving catalog.
+
+</p>
+
+<h3>Data Preparation</h3>
+
+<ul>
+
+<li>Handled missing values in key fields such as director, rating, and country</li>
+
+<li>Split multi-valued genre fields for more accurate genre analysis</li>
+
+<li>Standardized date formats for time-series visualizations</li>
+
+<li>Removed redundant or inconsistent fields</li>
+
+<li>Cleaned text inconsistencies and formatting issues</li>
+
+</ul>
+
+<h3>Key Visualizations</h3>
+
+<ul>
+
+<li>Movies vs TV Shows distribution</li>
+
+<li>Rating distribution across content types</li>
+
+<li>Growth of Netflix titles by year</li>
+
+<li>Top 10 genres on Netflix</li>
+
+<li>Top producing countries</li>
+
+<li>Top directors contributing content</li>
+
+</ul>
+
+<h3>Key Insights</h3>
+
+<ul>
+
+<li>Movies represent about 68% of Netflix’s catalog while TV shows account for about 32%</li>
+
+<li>TV-MA and TV-14 dominate maturity ratings</li>
+
+<li>Netflix content expanded rapidly between 2015 and 2019</li>
+
+<li>The United States, India, and the United Kingdom contribute the most titles</li>
+
+<li>International Movies, Dramas, and Comedies are the most common genres</li>
+
+</ul>
+
+<h3>Project Visualizations</h3>
+
+<div class="gallery">
+
+<img src="C:\Users\keert\OneDrive\Documents\Netflix Movies & TV Shows Analytics.png">
+
+<img src="C:\Users\keert\OneDrive\Documents\“Netflix Content Insights Top Release Years, Genres, Directors & Countries”.png">
+
+</div>
+
+<h3>Interactive Links</h3>
+
+<div class="links">
+
+<a class="btn" href="C:\Users\keert\Downloads\Tableau_PPT_Gandla.pdf">
+View Report
+</a>
+
+<a class="btn" href="C:\Users\keert\Downloads\final_Project2025\Final_Project_Tableau_Keerthana.twbx">
+Open Tableau Workbook
+</a>
+</div>
+
+<br><br>
+
+<div class="project">
+
+<h2>
+Loan Eligibility Prediction Through Predictive Modeling
+</h2>
+
+<p>
+
+This project applies machine learning techniques to predict loan approval outcomes for Sunrise Financial Services using applicant demographic and financial information.
+
+</p>
+
+<h3>Project Overview</h3>
+
+<p>
+
+Financial institutions must evaluate loan applications quickly and accurately to reduce risk and improve customer experience. Manual evaluation can be slow and may introduce bias. 
+
+This project develops predictive machine learning models that automatically determine whether a loan application should be approved based on applicant attributes such as income, education, employment status, and credit history.
+
+</p>
+
+<h3>Dataset</h3>
+
+<p>
+
+The dataset contains customer application information collected from Sunrise Financial Services through an online loan application system.
+
+</p>
+
+<ul>
+
+<li>Training dataset with 16 attributes</li>
+
+<li>Testing dataset with 15 attributes</li>
+
+<li>Target variable: Loan_Status (Approved / Not Approved)</li>
+
+<li>Applicant demographics and financial indicators</li>
+
+</ul>
+
+<h4>Key Features</h4>
+
+<ul>
+
+<li>Gender</li>
+
+<li>Marital Status</li>
+
+<li>Education</li>
+
+<li>Employment Status</li>
+
+<li>Applicant Income</li>
+
+<li>Co-applicant Income</li>
+
+<li>Loan Amount</li>
+
+<li>Loan Term</li>
+
+<li>Credit History</li>
+
+<li>Property Area</li>
+
+</ul>
+
+<h3>Data Preprocessing</h3>
+
+<ul>
+
+<li>Handled missing values using median and mode imputation</li>
+
+<li>Treated outliers using the IQR method</li>
+
+<li>Encoded categorical variables for machine learning</li>
+
+<li>Balanced dataset using RandomOverSampler</li>
+
+</ul>
+
+<h3>Feature Engineering</h3>
+
+<ul>
+
+<li>Created TotalIncome by combining applicant and co-applicant income</li>
+
+<li>Developed IncomePerPerson to measure financial burden</li>
+
+<li>Introduced LoanToIncomeRatio to evaluate repayment capability</li>
+
+<li>Converted loan term from months into years</li>
+
+</ul>
+
+<h3>Machine Learning Models</h3>
+
+<ul>
+
+<li>Logistic Regression</li>
+
+<li>Random Forest</li>
+
+<li>Decision Tree</li>
+
+<li>XGBoost</li>
+
+</ul>
+
+<h3>Model Performance</h3>
+
+<ul>
+
+<li>Random Forest: ~91% accuracy (best performing model)</li>
+
+<li>XGBoost: ~86% accuracy</li>
+
+<li>Decision Tree: ~84% accuracy</li>
+
+<li>Logistic Regression: ~71% accuracy</li>
+
+</ul>
+
+<p>
+
+Random Forest achieved the highest predictive accuracy and demonstrated strong generalization across cross-validation tests, making it the recommended model for loan eligibility prediction.
+
+</p>
+
+<h3>Project Visualizations</h3>
+
+<div class="gallery">
+
+<img src="C:\Users\keert\OneDrive\Pictures\Screenshots\Screenshot 2025-12-10 191713.png">
+
+<img src="C:\Users\keert\OneDrive\Pictures\Screenshots\Screenshot 2025-12-10 191743.png">
+
+<img src="C:\Users\keert\OneDrive\Pictures\Screenshots\Screenshot 2025-12-10 192032.png">
+
+</div>
+
+<h3>Interactive Links</h3>
+
+<div class="links">
+
+<a class="btn" href="C:\Users\keert\Downloads\Final_project_Report[1].pdf">
+View Report
+</a>
+
+
+</div>
+
+</div>
+
+<br><br>
+
+<div class="project">
+
+<h2>
+Alliance Prototype Project: Project Management Simulation
+</h2>
+
+<p>
+
+This project evaluates the performance of a simulated software development project using project management principles such as resource allocation, schedule planning, cost control, and quality management.
+
+</p>
+
+<h3>Project Overview</h3>
+
+<p>
+
+The Alliance Prototype Project simulation was conducted as part of a project management course to analyze how different management strategies impact project outcomes.
+
+The project involved managing a simulated development project across multiple runs while balancing constraints such as budget, schedule, and quality defects. Each run allowed the team to refine strategies, improve decision-making, and apply lessons learned from previous attempts.
+
+</p>
+
+<h3>Project Goals</h3>
+
+<ul>
+
+<li>Complete the project within a $50,000 budget</li>
+
+<li>Finish within approximately 11–13 weeks</li>
+
+<li>Maintain fewer than 12 project defects</li>
+
+<li>Optimize resource allocation and scheduling</li>
+
+</ul>
+
+<h3>Project Planning & Management</h3>
+
+<p>
+
+The project involved planning tasks, allocating team members, and managing dependencies using project management tools such as Gantt charts and network diagrams.
+
+Key project phases included:
+
+</p>
+
+<ul>
+
+<li>Systems Design</li>
+
+<li>Network Design and Implementation</li>
+
+<li>Software Implementation</li>
+
+<li>Systems Integration</li>
+
+<li>Customer Acceptance Testing</li>
+
+<li>Product Documentation</li>
+
+</ul>
+
+<p>
+
+The network diagram illustrates how task dependencies impact project execution, showing that Systems Integration could only begin after Software Implementation and Documentation Review were completed. Delays in early tasks caused cascading impacts on the project timeline. :contentReference[oaicite:2]{index=2}
+
+</p>
+
+<h3>Project Simulation Runs</h3>
+
+<p>
+
+The project simulation was conducted in three runs to improve performance through iterative learning.
+
+</p>
+
+<ul>
+
+<li><b>Run 1:</b> Initial attempt faced resource shortages, scheduling conflicts, and dependency delays, resulting in budget overruns and schedule slippage.</li>
+
+<li><b>Run 2:</b> Strategy improvements led to better resource allocation and communication, resulting in improved project performance.</li>
+
+<li><b>Run 3:</b> A collaborative team strategy optimized resource usage and project planning, achieving the best results.</li>
+
+</ul>
+
+<h3>Final Results</h3>
+
+<ul>
+
+<li>Final project cost: $49,802 (within the $50,000 budget)</li>
+
+<li>Project completion: 100%</li>
+
+<li>Total defects: 10 (below the target limit of 12)</li>
+
+<li>All project tasks completed successfully</li>
+
+</ul>
+
+<p>
+
+The project demonstrated that effective communication, strategic resource allocation, and continuous monitoring of project metrics can significantly improve project outcomes.
+
+</p>
+
+<h3>Project Visualizations</h3>
+
+<div class="gallery">
+
+<img src="C:\Users\keert\OneDrive\Pictures\Screenshots\Screenshot 2025-12-10 192949.png">
+
+<img src="C:\Users\keert\OneDrive\Pictures\Screenshots\Screenshot 2025-12-10 193006.png">
+
+<img src="C:\Users\keert\OneDrive\Pictures\Screenshots\Screenshot 2025-12-10 193029.png">
+
+
+</div>
+
+<h3>Project Links</h3>
+
+<div class="links">
+
+<a class="btn" href="C:\Users\keert\Downloads\DA570SimProject_Keerthana_Gandla.pdf">
+View Report
+</a>
+
+<a class="btn" href="C:\Users\keert\Downloads\DA570_Simproject_Keerthana_Gandla (1).pdf">
+View Presentation
+</a>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 Keerthana Gandla</p>
+
+</footer>
+
+</body>
+</html>
